@@ -1,0 +1,9 @@
+version: "1.0"
+
+build:
+  dockerfile: Dockerfile
+  context: .
+
+env:
+  LINGBOT_CKPT_DIR: /workspace/lingbot-world-base-cam
+  HF_TOKEN: ${HF_TOKEN}
